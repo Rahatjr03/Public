@@ -157,14 +157,15 @@ def banner():
 	cik2=mark(wel ,style='green')
 	sol().print(cik2)
 	ban='''
-•   AUTHOR : AOREC-XD WHATSAPP : 081908010667   •
-•   _____ _______  ____________________         •
-•   __  // /__   |/  /__  __ )__  ____/         •
-•   _  // /__  /|_/ /__  __  |_  /_             •
-•   /__  __/  /  / / _  /_/ /_  __/             •
-•     /_/  /_/  /_/  /_____/ /_/VERSION 4.0.4   •
+•   AUTHOR : PSYCHO PICCHI WHATSAPP : 01926890544   •
+•   \033[0;93m ██████  ██  ██████  ██████ ██   ██ ██ 
+\033[0;93m ██   ██ ██ ██      ██      ██   ██ ██ 
+\033[0;92m ██████  ██ ██      ██      ███████ ██ 
+\033[0;91m ██      ██ ██      ██      ██   ██ ██ 
+\033[0;91m ██      ██  ██████  ██████ ██   ██ ██ 
+                                                •
 •                                               •
-•   GITHUB : HTTPS://GITHUB.COM/AOREC-XD/4MBF   •'''
+•   GITHUB : HTTPS://GITHUB.COM/PSYCHO-PICCHI/Public   •'''
 	oi = nel(tekz(ban,justify='center',style='bold'), style='cyan')
 	cetak(nel(oi, title='[bold cyan] • DEVELOVER INFORMATION • [/bold cyan]'))
 # VALIDASI TOKEN
