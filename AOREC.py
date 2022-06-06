@@ -151,21 +151,19 @@ def clear():
 def back():
 	login()
 # BANNER
-def banner():
-	clear()
-	wel='# WELCOME TO FACEBOOK CRACK TOOL'
-	cik2=mark(wel ,style='green')
-	sol().print(cik2)
-	ban='''
-•   AUTHOR : PSYCHO PICCHI WHATSAPP : 01926890544   •
-•   \033[0;93m ██████  ██  ██████  ██████ ██   ██ ██ 
-\033[0;93m ██   ██ ██ ██      ██      ██   ██ ██ 
-\033[0;92m ██████  ██ ██      ██      ███████ ██ 
-\033[0;91m ██      ██ ██      ██      ██   ██ ██ 
+
+logo = """
+
+\033[0;93m ██████  ██  ██████  ██████ ██   ██ ██                \033[0;93m ██   ██ ██ ██      ██      ██   ██ ██ 
+\033[0;92m ██████  ██ ██      ██      ███████ ██                \033[0;91m ██      ██ ██      ██      ██   ██ ██ 
 \033[0;91m ██      ██  ██████  ██████ ██   ██ ██ 
-                                                •
-•                                               •
-•   GITHUB : HTTPS://GITHUB.COM/PSYCHO-PICCHI/Public   •'''
+                                     
+\033[0;92m——————————————————————————————————————————————————————
+\033[0;91m [\033[0;93m•\033[0;91m]\033[0;92m AUTHOR   : PSYCHO >
+\033[0;91m [\033[0;93m•\033[0;91m]\033[0;92m FACEBOOK : PSYCHO >
+\033[0;91m [\033[0;93m•\033[0;91m]\033[0;92m GITHUB   : PSYCHO->
+\033[0;91m [\033[0;93m•\033[0;91m]\033[0;92m TOOLS    : \033[0;>\033[0;92m——————————————————————————————————————————————————————
+    """
 	oi = nel(tekz(ban,justify='center',style='bold'), style='cyan')
 	cetak(nel(oi, title='[bold cyan] • DEVELOVER INFORMATION • [/bold cyan]'))
 # VALIDASI TOKEN
@@ -195,7 +193,7 @@ def login():
 
 # LOGIN
 def login_lagi334():
-	banner()
+	logo()
 	sky = '[bold cyan][01] LOGIN COOKIE V1\n[02] LOGIN COOKIE V2[/bold cyan]'
 	sky2 = nel(sky, style='cyan')
 	cetak(nel(sky2,title='[bold cyan] • LOGIN MENU • [/bold cyan]'))
@@ -266,7 +264,7 @@ def anoun():
 	else:pass
 	login()
 def tlisensi():
-	banner()
+	logo()
 	wel='# LICENSE IS NOT APPLICABLE OR WRONG'
 	wel2 = mark(wel, style='red')
 	sol().print(wel2)
@@ -286,7 +284,7 @@ def lisensi():
 	res=requests.get('https://app.cryptolens.io/api/key/Activate?token=WyIxNzgxNjQyOSIsIkI1a3JKY2tPQnVqZ2MzWGU2cXppSE5GOXZkalpaaUhoSlRFRzZNQ0YiXQ==&ProductId=15076&Key='+lisensikuni[0]).json()
 	status=res['licenseKey']['key']
 	if status ==cek:
-		banner()
+		logo()
 		wel='# LICENSE APPLICABLE '
 		wel2 = mark(wel, style='cyan')
 		sol().print(wel2)
@@ -306,7 +304,7 @@ def menu(my_name,my_id):
 		thnx = my_birthday.split('/')[2]
 		birth = tglx+' '+blnx+' '+thnx
 	except:birth = '-'
-	banner()
+	logo()
 	sg = '# USER ACCOUNT INFORMATION'
 	fx = mark(sg, style='green')
 	sol().print(fx)
